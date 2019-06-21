@@ -1,0 +1,26 @@
+{
+  "browserSyncOptions" : {
+    "proxy": "localhost/bpl-wp/",
+    "notify": true
+  },
+  "browserSyncWatchFiles" : [
+    "./css/*.min.css",
+    "./js/*.min.js",
+    "./**/*.php",
+    "./sass/theme/*",
+    "./blocks/*"
+  ],
+  "paths" : {
+    "js": "./js",
+    "css": "./css",
+    "img": "./img",
+		"imgsrc": "./src/img",
+    "sass": "./sass",
+    "node": "./node_modules/",
+    "bower": "./bower_components/",
+    "dev": "./src",
+    "dist": "./dist",
+    "distprod": "./dist-product",
+    "vendor": ""
+  }
+}
