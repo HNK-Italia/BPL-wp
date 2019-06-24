@@ -10,7 +10,7 @@
             <h6><?php block_field('cerchi-un-diplomificio-testo-2'); ?></h6>
           </div>
           <div class="col-md-4">
-            <img src="stop.svg" height="100%" width="50%" />
+            <img src="<?php block_field('immagine-centrale'); ?>" height="100%" width="50%" />
           </div>
           <div class="col-md-4">
             <i class="material-icons" style="color:#ffffff">close</i>
