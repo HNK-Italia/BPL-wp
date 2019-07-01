@@ -275,3 +275,28 @@ hr.spacer {
   width: 70px;
   max-height: 70px;
 }
+
+.icona-evita-divieto {
+  position: absolute;
+  right: 25%;
+  top: 75%;
+}
+
+.icona-evita-esclamativo {
+  position: absolute;
+  right: 25%;
+  top: 75%;
+  transform: rotate(5deg)
+}
+
+@media screen and (max-width: 767px) {
+  .icona-evita-divieto {
+    display: none;
+  }
+  .icona-evita-esclamativo {
+    display: none;
+  }
+  .icona-genitore {
+    display: none;
+  }
+}

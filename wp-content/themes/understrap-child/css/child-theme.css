@@ -11453,12 +11453,12 @@ hr.spacer {
   text-align: center; }
 
 .bpl-card .box ul li:hover a {
-  color: #e91e63;
+  color: #dc3545;
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg); }
 
 .btn-danger {
-  background-color: #e91e63;
+  background-color: #dc3545;
   -webkit-transition: all ease 0.25s;
   transition: all ease 0.25s; }
 
