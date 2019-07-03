@@ -184,6 +184,7 @@ body {
   .hero-blog{
     height: 60vh;
     width: 100%;
+    background-size: cover;
     display: block;
     position: relative;
     background-position: center center;
@@ -273,11 +274,15 @@ body {
     width: 70px;
     max-height: 70px;
   }
-  
+
   .icona-evita-divieto {
     position: absolute;
     right: 25%;
     top: 75%;
+  }
+
+  .icona-evita {
+    position: absolute;
   }
   
   .icona-evita-esclamativo {

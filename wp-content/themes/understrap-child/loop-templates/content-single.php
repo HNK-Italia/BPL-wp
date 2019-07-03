@@ -1,6 +1,6 @@
 <?php
 /**
- * Partial template for content in page.php
+ * Single post partial template.
  *
  * @package understrap
  */
@@ -14,7 +14,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<header class="entry-header">
 
-	<?php # Walter the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+
+		<div class="entry-meta">
+
+			<?php understrap_posted_on(); ?>
+
+		</div><!-- .entry-meta -->
 
 	</header><!-- .entry-header -->
 
@@ -37,7 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<footer class="entry-footer">
 
-		<?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php understrap_entry_footer(); ?>
 
 	</footer><!-- .entry-footer -->
 
