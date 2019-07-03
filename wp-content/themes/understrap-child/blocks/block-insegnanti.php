@@ -1,12 +1,12 @@
-<section class="container mb-5">
+<section class="container mb-5 text-center">
 
-  <div>
-    <h2 style="color: #1CA554;"><?php block_field('testo2'); ?></h2>
+  <div style="padding: 20px;">
+    <h2 style="color: #1CA554;"><?php block_field('titolo'); ?></h2>
   </div>
 
   <!-- Inizio delle cards Insegnanti -->
 
-  <div class="row text-center">
+  <div class="row">
 
     <div class="col-mx-12 col-md-6 col-lg-3">
       <img src="<?php block_field('foto1'); ?>" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 20px;" />

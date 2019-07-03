@@ -1,11 +1,9 @@
-  <section class="hero-minimo" style="background: <?php block_field('immagine-iniziale'); ?>;background-size: cover; background-position: center center;">
-    <div class="c-frase">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 frase-impressione">
-            <h1 class="text-center"><?php block_field('titolo-pagina'); ?></h1>
-          </div>
-        </div>
+<section class="row">
+  <div class="hero-minimo" style="background: <?php block_field('immagine-iniziale'); ?>;background-size: cover; background-position: center center;">
+    <div style="padding: 25px 0 25px 0; color: #ffffff; background-color: rgba(0,0,0,0.4); position: relative; height: 100%;">
+      <div class="">
+        <h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);"><?php block_field('titolo-pagina'); ?></h1>
       </div>
     </div>
-  </section>
+  </div>
+</section>

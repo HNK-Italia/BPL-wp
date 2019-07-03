@@ -1,4 +1,4 @@
-<section class="container-fluid" style="background-color: #1CA554;">
+<section class="row" style="background-color: #1CA554;">
   <section class="container">
     <hr class="spacer py-1 py-md-4" />
       <div class="text-center">
