@@ -32,8 +32,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         </div>
         <div class="col-6">
-          <a href="http://instagram.com/"><img style="margin-right: 3px;" src="instagram_white.svg" height="45px" width="45px" /></a>
-          <a href="http://facebook.com/"><img style="margin-left: 3px; margin-right: 3px;" src="facebook_white.svg" height="45px" width="45px" /></a>
+          <a href="https://www.instagram.com/bigpictureitalia/"><img style="margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/instagram.svg" height="45px" width="45px" /></a>
+          <a href="https://www.facebook.com/bigpicturelearningitalia/"><img style="margin-left: 3px; margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/facebook.svg" height="45px" width="45px" /></a>
         </div>
       </div>
       <hr class="spacer py-1 py-md-1" />

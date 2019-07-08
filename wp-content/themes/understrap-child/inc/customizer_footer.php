@@ -19,4 +19,4 @@ function footer_section($wp_customize){
   'type'=> 'textarea'
   ));
 }
-add_action('customize_register','footer_section');
+//add_action('customize_register','footer_section');
