@@ -28,12 +28,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<?php the_custom_logo(); ?>
 
- <!-- Il logo dinamico di BPL -->
+ <!-- Link dei social dinamici -->
+
+ <!-- Instagram -->
 
         </div>
         <div class="col-6">
-          <a href="https://www.instagram.com/bigpictureitalia/"><img style="margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/instagram.svg" height="45px" width="45px" /></a>
-          <a href="https://www.facebook.com/bigpicturelearningitalia/"><img style="margin-left: 3px; margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/facebook.svg" height="45px" width="45px" /></a>
+          <?php if(get_theme_mod('showcase_checkbox_instagram', 'Non funziona') == 1) {?>
+            <a href="<?php echo get_theme_mod('showcase_link_instagram', 'https://www.instagram.com/bigpictureitalia/'); ?>">
+            <img style="margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/instagram.svg" height="45px" width="45px" /></a>
+          <?php
+          }
+          ?>
+
+ <!-- Facebook -->
+
+          <?php if(get_theme_mod('showcase_checkbox_facebook', 'Non funziona') == 1) {?>
+          <a href="<?php echo get_theme_mod('showcase_link_facebook', 'https://www.facebook.com/bigpicturelearningitalia/'); ?>"><img style="margin-left: 3px;
+          margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/facebook.svg" height="45px" width="45px" /></a>
+          <?php
+          }
+          ?>
+
         </div>
       </div>
       <hr class="spacer py-1 py-md-1" />
@@ -41,26 +57,26 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="col-mx-12 col-md-6">
           <address>
             <h6>SEDE LEGALE</h6>
-            <p>Via G.B. Serralunga, 27<br  />
-            13900 - Biella (Italia)</p>
+            <p><?php echo get_theme_mod('showcase_via_legale', 'Via G.B. Serralunga, 27'); ?><br />
+            <?php echo get_theme_mod('showcase_citta_legale', ' 13900 - Biella (Italia)'); ?></p>
           </address>
         </div>
         <div class="col-mx-12 col-md-6">
           <address>
             <h6>SEDE OPERATIVA</h6>
-            <p>c/o SELLALAB<br />
-            Via Corradino Sella, 10<br />
-            13900 - Biella (Italia)</p>
+            <p><?php echo get_theme_mod('showcase_co_operativa', ' 13900 - Biella (Italia)'); ?><br />
+            <?php echo get_theme_mod('showcase_via_operativa', ' 13900 - Biella (Italia)'); ?><br />
+            <?php echo get_theme_mod('showcase_citta_operativa', ' 13900 - Biella (Italia)'); ?></p>
           </address>
         </div>
       </div>
       <div class="row">
         <div class="col-mx-12 col-md-6">
-          <p>© 2019 All rights reserved Big Picture Learning Italia | P.I. 02579780020 </p>
+          <p><?php echo get_theme_mod('showcase_diritti', ' 13900 - Biella (Italia)'); ?></p>
         </div>
         <div class="col-mx-12 col-md-6">
-          <a type="button" class="btn btn-dark" href="faq.php">
-            Privacy Policy
+          <a type="button" class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>">
+          <?php echo get_theme_mod('showcase_Privacy_text', 'Privacy Policy'); ?>
           </a>
         </div>
       </div>
