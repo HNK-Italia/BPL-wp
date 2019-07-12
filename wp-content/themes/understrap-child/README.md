@@ -57,3 +57,5 @@ Or, to run with Browser-Sync:
 - then run: `$ gulp watch-bs`
 
 [1] Visit [https://browsersync.io/](https://browsersync.io/) for more information on Browser Sync
+
+**Per questo template serve BlockLab https://it.wordpress.org/plugins/block-lab/**

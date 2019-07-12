@@ -60,11 +60,11 @@ $wp_customize->add_control('showcase_co_operativa', array(
 ));
 // Ditirri
 $wp_customize->add_setting('showcase_diritti', array(
-'default' =>_x('© 2019 All rights reserved Big Picture Learning Italia | P.I. 02579780020 ', 'understrap-child'),
+'default' =>_x('All rights reserved Big Picture Learning Italia | P.I. 02579780020', 'understrap-child'),
   'type' => 'theme_mod'
 ));
 $wp_customize->add_control('showcase_diritti', array(
-  'label' => __('"Tutti i diritti riservati"','understrap-child'),
+  'label' => __('"Tutti i diritti riservati" (senza anno perché è generato automaticamente)','understrap-child'),
   'section'=> 'intro_footer',
   'priority'=> 1,
   'type'=> 'text'

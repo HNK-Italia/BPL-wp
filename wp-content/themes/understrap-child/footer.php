@@ -58,21 +58,21 @@ $container = get_theme_mod( 'understrap_container_type' );
           <address>
             <h6>SEDE LEGALE</h6>
             <p><?php echo get_theme_mod('showcase_via_legale', 'Via G.B. Serralunga, 27'); ?><br />
-            <?php echo get_theme_mod('showcase_citta_legale', ' 13900 - Biella (Italia)'); ?></p>
+            <?php echo get_theme_mod('showcase_citta_legale', '13900 - Biella (Italia)'); ?></p>
           </address>
         </div>
         <div class="col-mx-12 col-md-6">
           <address>
             <h6>SEDE OPERATIVA</h6>
-            <p><?php echo get_theme_mod('showcase_co_operativa', ' 13900 - Biella (Italia)'); ?><br />
-            <?php echo get_theme_mod('showcase_via_operativa', ' 13900 - Biella (Italia)'); ?><br />
-            <?php echo get_theme_mod('showcase_citta_operativa', ' 13900 - Biella (Italia)'); ?></p>
+            <p><?php echo get_theme_mod('showcase_co_operativa', 'c/o SELLALAB'); ?><br />
+            <?php echo get_theme_mod('showcase_via_operativa', 'Via Corradino Sella, 10'); ?><br />
+            <?php echo get_theme_mod('showcase_citta_operativa', '13900 - Biella (Italia)'); ?></p>
           </address>
         </div>
       </div>
       <div class="row">
         <div class="col-mx-12 col-md-6">
-          <p><?php echo get_theme_mod('showcase_diritti', ' 13900 - Biella (Italia)'); ?></p>
+          <p>© <?php echo date("Y"); ?> <?php echo get_theme_mod('showcase_diritti', 'All rights reserved Big Picture Learning Italia | P.I. 02579780020'); ?></p>
         </div>
         <div class="col-mx-12 col-md-6">
           <a type="button" class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>">
