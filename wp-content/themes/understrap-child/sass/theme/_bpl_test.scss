@@ -287,6 +287,13 @@ hr.spacer {
   transform: rotate(5deg)
 }
 
+.backgroundbplvideo {
+  position: relative;
+  background-size: cover;
+  background-position: top center;
+  height: 500px;
+}
+
 @media screen and (max-width: 767px) {
   .icona-evita-divieto {
     display: none;
