@@ -75,7 +75,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <p>© <?php echo date("Y"); ?> <?php echo get_theme_mod('showcase_diritti', 'All rights reserved Big Picture Learning Italia | P.I. 02579780020'); ?></p>
         </div>
         <div class="col-mx-12 col-md-6">
-          <a type="button" class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>">
+          <a class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>">
           <?php echo get_theme_mod('showcase_Privacy_text', 'Privacy Policy'); ?>
           </a>
         </div>

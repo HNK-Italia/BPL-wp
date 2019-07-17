@@ -3,7 +3,7 @@
     <h2 class="title" style="z-index: 1;"><?php block_field('titolo'); ?></h2>
       <p><?php block_field('testo'); ?></p>
 
-    <a type="button" class="btn btn-danger btn-lg" href="<?php block_field('link'); ?>">
+    <a class="btn btn-danger btn-lg" href="<?php block_field('link'); ?>">
       <h4 style="margin: 8px 30px"><?php block_field('tasto'); ?></h4>
     </a>
   <hr class="spacer py-5 py-md-10" />
