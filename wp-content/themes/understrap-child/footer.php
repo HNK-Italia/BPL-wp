@@ -84,6 +84,13 @@ $container = get_theme_mod( 'understrap_container_type' );
       <hr class="spacer py-2 py-md-4" />
     </section>
 
+<div class="tornasu">
+  <a class="btn btn-light" href="#" role="button">
+    <i class="material-icons">arrow_upward</i>
+    <?php echo get_theme_mod('showcase_torna', 'Torna su'); ?>
+  </a>
+</div>
+
  <!-- Fine del Footer -->
 
 <?php wp_footer(); ?>

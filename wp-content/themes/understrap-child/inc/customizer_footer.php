@@ -132,5 +132,17 @@ $wp_customize->add_setting('showcase_link_facebook', array(
     'priority'=> 1,
     'type'=> 'text'
   ));
+ // Torna su
+ $wp_customize->add_setting('showcase_torna', array(
+  'default' =>_x('Torna su', 'understrap-child'),
+    'type' => 'theme_mod'
+  ));
+  $wp_customize->add_control('showcase_torna', array(
+    'label' => __('Tasto che verrà visualizzato sul tasto per tornare all inizio della pagina','understrap-child'),
+    'section'=> 'intro_footer',
+    'priority'=> 1,
+    'type'=> 'text'
+  ));
+  
 }
 add_action('customize_register','footer_section');
