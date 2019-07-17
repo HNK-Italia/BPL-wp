@@ -11,11 +11,12 @@
 
  <!-- Inizio zona TEST -->
 
-<section class="container" style="position: relative">
-  <div style="color: <?php block_field('colore'); ?>; position: relative; height: 100%;">
-    <h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);"><?php block_field('titolo'); ?></h1>
-    <h5 class="text-center" style="position: absolute; left: 50%; top: 80%; transform:translate(-50%);"><?php block_field('testo'); ?></h5>
-    <a href="<?php block_field('link'); ?>"><img class="icona-genitore" src="<?php echo get_stylesheet_directory_uri()?>/img/play.svg" style="position: absolute; left: 50%; top: 30%; transform:translate(-50%); max-width: 128px; height: auto;"></a>
-    <img style="z-index: -1;" src="<?php block_field('immagine'); ?>">
- </div>
+<section class="container">
+  <div style="position: relative; background-image: url('<?php block_field('immagine'); ?>'); background-size: cover; background-position: top center; height: 500px;">
+    <div style="color: <?php block_field('colore'); ?>; background-color: rgba(0,0,0,0.4); height: 100%;">
+      <h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);"><?php block_field('titolo'); ?></h1>
+      <h5 class="text-center" style="position: absolute; left: 50%; top: 80%; transform:translate(-50%);"><?php block_field('testo'); ?></h5>
+      <a href="<?php block_field('link'); ?>"><img class="icona-genitore" src="<?php echo get_stylesheet_directory_uri()?>/img/play.svg" style="position: absolute; left: 50%; top: 30%; transform:translate(-50%); max-width: 128px; height: auto;"></a>
+    </div>
+  </div>
 </section>
