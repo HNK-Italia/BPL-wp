@@ -168,6 +168,10 @@ hr.spacer {
   padding: 10px;
 }
 
+.icona-genitore {
+  position: absolute;
+}
+
 @media only screen and (max-width: 600px) {
   .box-model div {
     width: 100%;
@@ -182,24 +186,30 @@ hr.spacer {
   height: 100%;
 }
 
-.hero {
+.trasparenza {
+  padding: 25px 0 25px 0;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.4);
+  position: relative;
+  height: 100%;
+}
+
+.hero{
   background: url('https://picsum.photos/1920/1080') no-repeat;
   background-size: cover;
   height: 80vh;
   width: 100%;
   display: block;
-  position: relative;
   background-position: center;
 }
 
-.hero-minimo {
+.hero-minimo{
   background: url('https://picsum.photos/1920/1080') no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   display: block;
-  position: relative;
-  background-position: center;
+  background-position: top center;
 }
 
 .hero-blog {
@@ -207,8 +217,14 @@ hr.spacer {
   width: 100%;
   background-size: cover;
   display: block;
-  position: relative;
   background-position: center center;
+}
+
+.titolo-page {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%);
 }
 
 .img-background {
@@ -309,19 +325,24 @@ hr.spacer {
 
 .icona-evita-divieto {
   position: absolute;
-  right: 25%;
-  top: 75%;
+}
+
+@media screen and (max-width: 786px) {
+  .icona-evita {
+    display: none
+  }
 }
 
 .icona-evita {
   position: absolute;
+  max-width: 128px;
+  height: auto;
 }
 
 .icona-evita-esclamativo {
   position: absolute;
-  right: 25%;
-  top: 75%;
-  transform: rotate(5deg)
+  max-width: 128px;
+  height: auto;
 }
 
 .visibile {
@@ -332,11 +353,10 @@ hr.spacer {
   opacity: 0;
 }
 
+//override understrap
+
 .wrapper {
   padding: 0px !important;
-}
-body {
-  background: red;
 }
 
 @media screen and (max-width: 767px) {

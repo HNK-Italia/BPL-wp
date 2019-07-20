@@ -161,6 +161,14 @@ hr.spacer {
   height: 100%;
 }
 
+.trasparenza {
+  padding: 25px 0 25px 0;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.4);
+  position: relative;
+  height: 100%;
+}
+
 .hero{
   background: url('https://picsum.photos/1920/1080') no-repeat;
   background-size: cover;
@@ -174,11 +182,11 @@ hr.spacer {
 .hero-minimo{
   background: url('https://picsum.photos/1920/1080') no-repeat;
   background-size: cover;
-  height: 60vh;
+  height: 40vh;
   width: 100%;
   display: block;
   position: relative;
-  background-position: center;
+  background-position: top center;
 }
 
 .hero-blog{
@@ -292,6 +300,10 @@ hr.spacer {
   background-size: cover;
   background-position: top center;
   height: 500px;
+}
+
+.icona-genitore {
+  position: absolute;
 }
 
 @media screen and (max-width: 767px) {
