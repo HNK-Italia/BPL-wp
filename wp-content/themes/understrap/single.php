@@ -20,17 +20,25 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="row">
 
 			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
 
+				<div class="hero-minimo" style="background-image: url('<?php block_field('immagine'); ?>');">
+					<div class="trasparenza">
+						<div class="">
+							<h1 class="text-center"
+								style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
+								<?php single_post_title(); ?></h1>
+						</div>
+					</div>
+				</div>
+
+				<?php get_template_part( 'loop-templates/content', 'single' ); ?>
+
+				<?php understrap_post_nav(); ?>
+
 				<?php while ( have_posts() ) : the_post(); ?>
-
-					<?php get_template_part( 'loop-templates/content', 'single' ); ?>
-
-					<?php understrap_post_nav(); ?>
-
-					<?php
+				<?php
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
 						comments_template();

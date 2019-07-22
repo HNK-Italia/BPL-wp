@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php if ( is_front_page() && is_home() ) : ?>
-	<?php get_template_part( 'global-templates/hero' ); ?>
+<?php get_template_part( 'global-templates/hero' ); ?>
 <?php endif; ?>
 
 <div class="wrapper" id="index-wrapper">
@@ -36,12 +36,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<main class="site-main" id="main">
 
 				<?php if ( have_posts() ) : ?>
-					<div class="container">
+				<div class="container">
 					<?php /* Start the Loop */ ?>
- 
+
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php
+					<?php
 
 						/*
 						 * Include the Post-Format-specific template for the content.
@@ -54,11 +54,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php endwhile; ?>
 
-				<?php else : ?>
+					<?php else : ?>
 
 					<?php get_template_part( 'loop-templates/content', 'none' ); ?>
 
-				<?php endif; ?>
+					<?php endif; ?>
 				</div><!-- ./ end container -->
 			</main><!-- #main -->
 
