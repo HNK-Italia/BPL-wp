@@ -16,17 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<header class="entry-header">
 
-		<?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
-
 		<?php if ( 'post' == get_post_type() ) : ?>
 
 		<div class="entry-meta">
-			<?php understrap_posted_on(); ?>
 		</div><!-- .entry-meta -->
 
 		<?php endif; ?>
@@ -40,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 		<?php if (get_the_post_thumbnail()) { ?>
 
-		<div class="col-md-3">
+		<div class="col-md-5">
 
 			<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
@@ -50,7 +42,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 	}
 ?>
 
-		<div class="entry-content col-md-9">
+		<div class="entry-content col-md-7">
+			
+		<?php
+		the_title(
+			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+			'</a></h2>'
+		);
+		?>
+			<?php understrap_posted_on(); ?>
 
 			<?php the_excerpt(); ?>
 
@@ -65,7 +65,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<footer class="entry-footer">
 
-				<?php understrap_entry_footer(); ?>
 
 			</footer><!-- .entry-footer -->
 

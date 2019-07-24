@@ -39,17 +39,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- Qui viene visualizzato l'autore e la data del post -->
 
-					<h4>Post creato da <i><?php echo the_author_meta('display_name') ?></i></h4><h5>il <i><?php echo get_the_date() ?></i></h5>
+					<h4 style="font-weight: 400;">Scritto da <b><?php echo the_author_meta('display_name') ?></b></h4><h5 style="font-weight: 400;">il <i><?php echo get_the_date() ?></i></h5>
 
 				<!-- Qui viene visualizzato l'autore e la data del post -->
 
-					<hr class="spacer py-4 py-md-4">
-
-					<a class="btn btn-danger" href="<?php get_permalink( get_adjacent_post(false,'',false)->ID ) ?>">Prossimo post</a>
-
-					<hr class="spacer py-4 py-md-4">
-
-					<?php get_next_post() ?>
+				<hr class="spacer py-4 py-md-4">
 
 					<?php
 					// If comments are open or we have at least one comment, load up the comment template.

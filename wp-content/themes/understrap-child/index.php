@@ -62,6 +62,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 						get_template_part( 'loop-templates/content', get_post_format() );
 						?>
 
+	<!-- Zona TEST -->
+
+
+
+
+	<!-- Zona TEST -->
+
 					<?php endwhile; ?>
 
 					<?php else : ?>
@@ -73,7 +80,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</main><!-- #main -->
 
 			<!-- The pagination component -->
+			<div class="container">
 			<?php understrap_pagination(); ?>
+			</div>
 
 			<!-- Do the right sidebar check -->
 			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
