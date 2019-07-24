@@ -21,22 +21,21 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the left sidebar check -->
 
+			<div class="hero-minimo" style="background-image: url('<?php the_post_thumbnail_url() ?>');">
+				<div class="trasparenza">
+					<h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
+						<?php single_post_title() ?></h1>
+				</div>
+			</div>
+
 			<main class="site-main" id="main">
 
-				<div class="hero-minimo" style="background-image: url('<?php block_field('immagine'); ?>');">
-					<div class="trasparenza">
-						<div class="">
-							<h1 class="text-center"
-								style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
-								<?php single_post_title(); ?></h1>
-						</div>
-					</div>
-				</div>
-
-				<?php get_template_part( 'loop-templates/content', 'single' ); ?>
-
-				<?php understrap_post_nav(); ?>
-
+				<?php the_content() ?>
+				<!-- Ciao belli Autore -->
+				<p>Ciao</p>
+				<?php get_the_author_meta( 'display_name', $author_id ); ?>
+				<p>Ciao</p>
+				<!-- Ciao belli Autore -->
 				<?php while ( have_posts() ) : the_post(); ?>
 				<?php
 					// If comments are open or we have at least one comment, load up the comment template.

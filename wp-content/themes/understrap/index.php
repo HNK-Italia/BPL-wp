@@ -34,6 +34,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
+		  <div class="row">
+			<div class="hero-minimo" style="background-image: url('');">
+					<div class="trasparenza">
+						<div class="">
+							<h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
+							<?php echo get_theme_mod('showcase_citta_legale', 'Blog'); ?></h1>
+						</div>
+					</div>
+				</div>
+		  </div>
 
 				<?php if ( have_posts() ) : ?>
 				<div class="container">

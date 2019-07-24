@@ -16,7 +16,7 @@
 
   var container = document.querySelector('#testone');
 
-    container.addEventListener('click', function(){
+    container.addEventListener('onlick', function(){
         this.classList.remove('visibile');
         this.classList.add('nascosto');
   })
