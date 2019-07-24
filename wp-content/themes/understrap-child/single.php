@@ -13,7 +13,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<div class="wrapper container" id="single-wrapper">
+<div class="wrapper container-fluid" id="single-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 
 
-			<main class="site-main" id="main">
+			<main class="site-main container" id="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
