@@ -28,20 +28,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 			</div>
 
+
 			<main class="site-main" id="main">
 
-				<?php the_content(); ?>
-
-				<hr class="spacer py-1 py-md-4">
-
-				<!-- Ciao belli Autore -->
-
-				<?php // echo the_author_meta('user_level') ?>
-
-				<!-- Ciao belli Autore -->
-
 				<?php while ( have_posts() ) : the_post(); ?>
-				<?php
+
+				<hr class="spacer py-4 py-md-4">
+
+					<?php echo get_the_content()?>
+
+				<!-- Qui viene visualizzato l'autore e la data del post -->
+
+					<h4>Post creato da <i><?php echo the_author_meta('display_name') ?></i></h4><h5>il <i><?php echo get_the_date() ?></i></h5>
+
+				<!-- Qui viene visualizzato l'autore e la data del post -->
+
+					<hr class="spacer py-4 py-md-4">
+
+					<a class="btn btn-danger" href="<?php get_permalink( get_adjacent_post(false,'',false)->ID ) ?>">Prossimo post</a>
+
+					<hr class="spacer py-4 py-md-4">
+
+					<?php get_next_post() ?>
+
+					<?php
 					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
 						comments_template();

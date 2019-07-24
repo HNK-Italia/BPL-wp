@@ -35,11 +35,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<main class="site-main" id="main">
 		  <div class="row">
-			<div class="hero-minimo" style="background-image: url('');">
+			<div class="hero-minimo" style="background-image: url('<?php echo get_theme_mod('showcase_immagine_blog', 'https://cwsmgmt.corsair.com/newscripts/landing-pages/wallpaper/v4/Wallpaper-v4-2560x1440.jpg'); ?>');">
 					<div class="trasparenza">
 						<div class="">
 							<h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
-							<?php echo get_theme_mod('showcase_citta_legale', 'Blog'); ?></h1>
+							<?php echo get_theme_mod('showcase_blog_title', 'Blog'); ?></h1>
 						</div>
 					</div>
 				</div>

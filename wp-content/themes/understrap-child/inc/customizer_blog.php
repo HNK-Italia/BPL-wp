@@ -1,6 +1,6 @@
 <?php
 
-function footer_section($wp_customize){
+function blog_section($wp_customize){
   $wp_customize->add_section('intro_blogbpl', array(
       'title'    => __('Impostazioni Blog', 'understrap-child'),
       'description' => sprintf(__('Opzione della prima pagina del Blog','understrap-child')),
@@ -30,4 +30,4 @@ $wp_customize->add_control('showcase_blog_title', array(
 ));
 
 }
-add_action('customize_register','footer_section');
+add_action('customize_register','blog_section');
