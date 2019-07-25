@@ -1,13 +1,14 @@
 <section class="container" style="position: relative">
-<div style="transform:translateY(-16px);">
+<div style="">
   <div style="color: <?php block_field('colore'); ?>; position: relative; height: 525px;">
-   <div id="testone" class="visibile">
+   <div class="visibile">
     <h1 class="text-center" style="position: absolute; left: 50%; bottom: 25%; transform:translate(-50%);"><?php block_field('titolo'); ?></h1>
     <h5 class="text-center" style="position: absolute; left: 50%; bottom: 5%; transform:translate(-50%);"><?php block_field('testo'); ?></h5>
    </div>
     <iframe width="100%" height="550px" src="https://www.youtube.com/embed/<?php block_field('link'); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+<hr class="spacer py-4 py-md-4">
 </section>
 
  <!-- Inizio zona TEST -->
@@ -16,11 +17,11 @@
 
   var container = document.querySelector('#testone');
 
-    container.addEventListener('onlick', function(){
+    container.addEventListener('click', function(){
         this.classList.remove('visibile');
         this.classList.add('nascosto');
   })
-    container.addEventListener('mouseleave', function(){
+    container.addEventListener('click', function(){
         this.classList.add('visibile');
         this.classList.remove('nascosto');
   })

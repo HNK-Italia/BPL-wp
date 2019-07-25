@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<div class="hero-minimo" style="background-image: url('<?php the_post_thumbnail_url(); ?>'); background-position: center center;">
 				<div class="trasparenza">
-					<h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
+					<h1 class="text-center" style="position: absolute; left: 50%; bottom: 20%; transform:translate(-50%);">
 						<?php single_post_title(); ?></h1>
 				</div>
 			</div>

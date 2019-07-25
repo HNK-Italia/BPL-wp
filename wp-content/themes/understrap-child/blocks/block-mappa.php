@@ -1,4 +1,4 @@
-<section class="container-fluid">
+<section class="container-fluid ventipx">
   <div class="row">
     <iframe src="<?php block_field('link-mappa'); ?>" width="100%" height="550px" frameborder="-15px" style="border: 0" allowfullscreen></iframe>
   </div>

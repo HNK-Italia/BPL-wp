@@ -50,8 +50,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			'</a></h2>'
 		);
 		?>
-			<?php understrap_posted_on(); ?>
-
 			<?php the_excerpt(); ?>
 
 			<?php

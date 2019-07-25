@@ -37,10 +37,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 		  <div class="row">
 			<div class="hero-minimo" style="background-image: url('<?php echo get_theme_mod('showcase_immagine_blog', 'https://cwsmgmt.corsair.com/newscripts/landing-pages/wallpaper/v4/Wallpaper-v4-2560x1440.jpg'); ?>');">
 					<div class="trasparenza">
-						<div class="">
-							<h1 class="text-center" style="position: absolute; left: 50%; top: 60%; transform:translate(-50%);">
-							<?php echo get_theme_mod('showcase_blog_title', 'Blog'); ?></h1>
-						</div>
+						<h1 class="text-center" style="position: absolute; left: 50%; bottom: 25%; transform:translate(-50%);">
+						<?php echo get_theme_mod('showcase_blog_title', 'Blog'); ?></h1>
 					</div>
 				</div>
 		  </div>
@@ -62,13 +60,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 						get_template_part( 'loop-templates/content', get_post_format() );
 						?>
 
-	<!-- Zona TEST -->
-
-
-
-
-	<!-- Zona TEST -->
-
 					<?php endwhile; ?>
 
 					<?php else : ?>
@@ -81,7 +72,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- The pagination component -->
 			<div class="container">
-			<?php understrap_pagination(); ?>
+				<hr class="spacer py-4 py-md-4">
+				<?php understrap_pagination(); ?>
+				<hr class="spacer py-4 py-md-4">
 			</div>
 
 			<!-- Do the right sidebar check -->

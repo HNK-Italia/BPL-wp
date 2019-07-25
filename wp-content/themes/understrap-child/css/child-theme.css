@@ -11960,7 +11960,8 @@ hr.spacer {
   height: 500px; }
 
 .icona-genitore {
-  position: absolute; }
+  position: absolute;
+  z-index: -9999999999999999999999999999999999999999999999999999999999999; }
 
 @media screen and (max-width: 767px) {
   .icona-evita-divieto {
