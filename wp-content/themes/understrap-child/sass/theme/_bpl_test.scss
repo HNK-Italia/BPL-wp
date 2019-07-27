@@ -262,9 +262,10 @@ hr.spacer {
   margin-bottom: 30px
 }
 
-.bottonecard{
+.bottonecard {
   bottom: 20px;
   transform: translatex(-50%);
+  width: 150px;
 }
 
 .backgroundgradient{
@@ -289,7 +290,7 @@ hr.spacer {
 .icona-play {
   max-width: 128px;
   position: absolute;
-  bottom: 50%;
+  top: 20%;
   left: 50%;
   transform:translate(-50%)
 }

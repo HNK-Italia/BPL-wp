@@ -168,14 +168,6 @@ hr.spacer {
   padding: 10px;
 }
 
-.icona-play {
-  max-width: 128px;
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  transform:translate(-50%)
-}
-
 .icona-genitore {
   position: absolute;
 }
@@ -309,6 +301,7 @@ hr.spacer {
 .bottonecard {
   bottom: 20px;
   transform: translatex(-50%);
+  width: 150px;
 }
 
 .backgroundgradient {
