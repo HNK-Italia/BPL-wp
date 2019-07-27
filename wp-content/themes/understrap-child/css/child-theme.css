@@ -11503,6 +11503,14 @@ hr.spacer {
   display: inline-block;
   padding: 10px; }
 
+.icona-play {
+  max-width: 128px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%); }
+
 .icona-genitore {
   position: absolute; }
 
@@ -11940,6 +11948,14 @@ hr.spacer {
 .custom-logo-link img {
   width: 70px;
   max-height: 70px; }
+
+.icona-play {
+  max-width: 128px;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%); }
 
 .icona-evita-divieto {
   position: absolute;
