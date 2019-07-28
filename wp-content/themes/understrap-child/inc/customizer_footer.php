@@ -111,6 +111,37 @@ $wp_customize->add_setting('showcase_link_facebook', array(
     'priority'=> 1,
     'type'=> 'url'
   ));
+ // Tasto Newsletter
+  $wp_customize->add_setting('showcase_checkbox_newsletter', array(
+  'default' =>_x('1', 'understrap-child'),
+    'type' => 'theme_mod'
+  ));
+  $wp_customize->add_control('showcase_checkbox_newsletter', array(
+    'label' => __('Abilita la newsletter','understrap-child'),
+    'section'=> 'intro_footer',
+    'priority'=> 1,
+    'type'=> 'checkbox'
+  ));
+ $wp_customize->add_setting('showcase_text_newsletter', array(
+  'default' =>_x('Iscriviti alla Newsletter di BPL Italia', 'understrap-child'),
+  'type' => 'theme_mod'
+));
+$wp_customize->add_control('showcase_text_newsletter', array(
+  'label' => __('Testo del bottone newsletter','understrap-child'),
+  'section'=> 'intro_footer',
+  'priority'=> 1,
+  'type'=> 'url'
+));
+ $wp_customize->add_setting('showcase_link_newsletter', array(
+  'default' =>_x('', 'understrap-child'),
+  'type' => 'theme_mod'
+));
+$wp_customize->add_control('showcase_link_newsletter', array(
+  'label' => __('Link alla Newsletter','understrap-child'),
+  'section'=> 'intro_footer',
+  'priority'=> 1,
+  'type'=> 'url'
+));
  // Tasto Privacy Policy
   $wp_customize->add_setting('showcase_Privacy_link', array(
     'default' =>_x('https://www.iubenda.com/privacy-policy/95347031', 'understrap-child'),

@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         </div>
         <div class="col-6">
           <?php if(get_theme_mod('showcase_checkbox_instagram', 'Non funziona') == 1) {?>
-            <a href="<?php echo get_theme_mod('showcase_link_instagram', 'https://www.instagram.com/bigpictureitalia/'); ?>">
+            <a href="<?php echo get_theme_mod('showcase_link_instagram', 'https://www.instagram.com/bigpictureitalia/'); ?>" rel="noopener noreferrer" target="_blank">
             <img style="margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/instagram.svg" height="45px" width="45px" /></a>
           <?php
           }
@@ -44,8 +44,18 @@ $container = get_theme_mod( 'understrap_container_type' );
  <!-- Facebook -->
 
           <?php if(get_theme_mod('showcase_checkbox_facebook', 'Non funziona') == 1) {?>
-          <a href="<?php echo get_theme_mod('showcase_link_facebook', 'https://www.facebook.com/bigpicturelearningitalia/'); ?>"><img style="margin-left: 3px;
+          <a href="<?php echo get_theme_mod('showcase_link_facebook', 'https://www.facebook.com/bigpicturelearningitalia/'); ?>" rel="noopener noreferrer" target="_blank"><img style="margin-left: 3px;
           margin-right: 3px;" src="<?php echo get_stylesheet_directory_uri()?>/img/facebook.svg" height="45px" width="45px" /></a>
+          <?php
+          }
+          ?>
+
+  <!-- Newsletter -->
+
+          <?php if(get_theme_mod('showcase_checkbox_newsletter', 'Non funziona') == 1) {?>
+          <a class="btn btn-dark" href="<?php echo get_theme_mod('showcase_link_newsletter', ''); ?>" rel="noopener noreferrer" target="_blank">
+          <?php echo get_theme_mod('showcase_text_newsletter', 'Iscriviti alla Newsletter di BPL Italia'); ?>
+          </a>
           <?php
           }
           ?>
@@ -75,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
           <p>© <?php echo date("Y"); ?> <?php echo get_theme_mod('showcase_diritti', 'All rights reserved Big Picture Learning Italia | P.I. 02579780020'); ?></p>
         </div>
         <div class="col-mx-12 col-md-6">
-          <a class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>">
+          <a class="btn btn-dark" href="<?php echo get_theme_mod('showcase_Privacy_link', 'https://www.iubenda.com/privacy-policy/95347031'); ?>" rel="noopener noreferrer" target="_blank">
           <?php echo get_theme_mod('showcase_Privacy_text', 'Privacy Policy'); ?>
           </a>
         </div>
@@ -83,6 +93,8 @@ $container = get_theme_mod( 'understrap_container_type' );
       </div>
       <hr class="spacer py-2 py-md-4" />
     </section>
+
+  <!-- Tasto del Torna su -->
 
 <div class="tornasu">
   <a class="btn btn-light" href="#" role="button">
