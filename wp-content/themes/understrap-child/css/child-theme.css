@@ -11653,11 +11653,14 @@ hr.spacer {
   position: absolute;
   z-index: -9999999999999999999999999999999999999999999999999999999999999; }
 
+.titoloinsegnanti {
+  margin: 25px; }
+
 .immagineinsegnanti {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin: 20px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   -webkit-transition: all ease 0.25s;
@@ -11694,6 +11697,8 @@ hr.spacer {
   .tastoinsegnanti {
     -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  .titoloinsegnanti {
+    margin: 0px; } }
 
 /*# sourceMappingURL=child-theme.css.map */

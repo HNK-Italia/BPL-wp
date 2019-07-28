@@ -320,11 +320,15 @@ hr.spacer {
   z-index: -9999999999999999999999999999999999999999999999999999999999999;
 }
 
+.titoloinsegnanti {
+  margin: 25px;
+}
+
 .immagineinsegnanti {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  margin-bottom: 20px;
+  margin: 20px;
   transform: rotate(0deg);
   transition: all ease 0.25s;
 }
@@ -367,4 +371,7 @@ hr.spacer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20), 0 5px 5px rgba(0, 0, 0, 0.10);
     margin-bottom: 20px
   }  
+  .titoloinsegnanti {
+    margin: 0px;
+  }
 }
