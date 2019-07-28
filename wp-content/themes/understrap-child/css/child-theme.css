@@ -11657,6 +11657,19 @@ hr.spacer {
 .nascosto {
   opacity: 0; }
 
+.tastoinsegnanti {
+  padding-top: 15px;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s; }
+
+.tastoinsegnanti:hover {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1); }
+
+.boxinsegnanti {
+  padding: 25px 0; }
+
 .wrapper {
   padding: 0px !important; }
 
@@ -11666,7 +11679,11 @@ hr.spacer {
   .icona-evita-esclamativo {
     display: none; }
   .icona-genitore {
-    display: none; } }
+    display: none; }
+  .tastoinsegnanti {
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; } }
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -11971,12 +11988,47 @@ hr.spacer {
   position: absolute;
   z-index: -9999999999999999999999999999999999999999999999999999999999999; }
 
+.immagineinsegnanti {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s; }
+
+.immagineinsegnanti:hover {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg); }
+
+.tastoinsegnanti {
+  border-radius: 5px;
+  -webkit-transition: all ease 0.25s;
+  transition: all ease 0.25s; }
+
+.tastoinsegnanti:hover {
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1); }
+
+.boxinsegnanti {
+  padding: 25px 0 0 0; }
+
+.wrapper {
+  padding: 0px !important; }
+
 @media screen and (max-width: 767px) {
   .icona-evita-divieto {
     display: none; }
   .icona-evita-esclamativo {
     display: none; }
   .icona-genitore {
-    display: none; } }
+    display: none; }
+  .tastoinsegnanti {
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=child-theme.css.map */

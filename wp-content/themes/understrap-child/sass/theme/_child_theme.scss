@@ -353,6 +353,20 @@ hr.spacer {
   opacity: 0;
 }
 
+.tastoinsegnanti {
+  padding-top: 15px;
+  border-radius: 5px;
+  transition: all ease 0.25s;
+}
+
+.tastoinsegnanti:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20), 0 5px 5px rgba(0, 0, 0, 0.10);
+}
+
+.boxinsegnanti {
+  padding: 25px 0;
+}
+
 //override understrap
 
 .wrapper {
@@ -371,4 +385,8 @@ hr.spacer {
   .icona-genitore {
     display: none;
   }
+  .tastoinsegnanti {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20), 0 5px 5px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px
+  }  
 }
