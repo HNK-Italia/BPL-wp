@@ -11679,7 +11679,9 @@ hr.spacer {
 
 .tastoinsegnanti:hover {
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1); }
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px); }
 
 .boxinsegnanti {
   padding: 25px 0 0 0; }
@@ -11700,8 +11702,6 @@ hr.spacer {
   .icona-genitore {
     display: none; }
   .tastoinsegnanti {
-    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 5px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; }
   .titoloinsegnanti {
     margin: 0px; } }

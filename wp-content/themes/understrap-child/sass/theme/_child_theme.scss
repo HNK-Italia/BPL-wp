@@ -345,6 +345,7 @@ hr.spacer {
 
 .tastoinsegnanti:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20), 0 5px 5px rgba(0, 0, 0, 0.10);
+  transform: translateY(-15px);
 }
 
 .boxinsegnanti {
@@ -374,7 +375,6 @@ hr.spacer {
     display: none;
   }
   .tastoinsegnanti {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.20), 0 5px 5px rgba(0, 0, 0, 0.10);
     margin-bottom: 20px
   }  
   .titoloinsegnanti {
