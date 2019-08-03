@@ -223,7 +223,12 @@ hr.spacer {
   background-color: #cc2635;
   border-color: #dc3545;
 }
-
+.salehover {
+  transition: all ease 0.25s;
+}
+.salehover:hover {
+  transform: translateY(-5px)
+}
 .bpl-card:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
@@ -318,6 +323,8 @@ hr.spacer {
 .icona-genitore {
   position: absolute;
   z-index: -9999999999999999999999999999999999999999999999999999999999999;
+  max-width: 128px;
+  height: auto;
 }
 
 .titoloinsegnanti {
