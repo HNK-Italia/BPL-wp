@@ -22,7 +22,7 @@
       <!-- Fine di una Cards e inizio di un'altra -->
 
       <div class="col-mx-12 col-md-6 col-lg-3">
-      <div class="card text-center bpl-card indexcards">
+      <div class="card text-center bpl-card indexcards salehover">
         <div class="card-img-top img-background-little" style="background-image: url('<?php block_field('immagine-2'); ?>'); background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body position-relative">
           <h5 class="card-title"><?php block_field('titolo2'); ?></h5>
@@ -35,7 +35,7 @@
       <!-- Fine di una Cards e inizio di un'altra -->
 
       <div class="col-mx-12 col-md-6 col-lg-3">
-      <div class="card text-center bpl-card indexcards">
+      <div class="card text-center bpl-card indexcards salehover">
         <div class="card-img-top img-background-little" style="background-image: url('<?php block_field('immagine-3'); ?>');" alt="Card image cap"></div>
         <div class="card-body position-relative">
           <h5 class="card-title"><?php block_field('titolo3'); ?></h5>
@@ -48,7 +48,7 @@
       <!-- Fine di una Cards e inizio di un'altra -->
 
       <div class="col-mx-12 col-md-6 col-lg-3">
-      <div class="card text-center bpl-card indexcards">
+      <div class="card text-center bpl-card indexcards salehover">
         <div class="card-img-top img-background-little" style="background-image: url('<?php block_field('immagine-4'); ?>');" alt="Card image cap"></div>
         <div class="card-body position-relative">
           <h5 class="card-title"><?php block_field('titolo4'); ?></h5>

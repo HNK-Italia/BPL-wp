@@ -6,13 +6,13 @@
         <h2><?php block_field('evita-titolo'); ?></h2>
         <div class="row">
           <div class="col-md-6">
-            <i class="material-icons iconax">close</i>
+            <i class="material-icons icona-x">close</i>
             <h4 style="padding-bottom: 25px"><?php block_field('cerchi-un-diplomificio'); ?></h4>
             <p><?php block_field('cerchi-un-diplomificio-testo-1'); ?></p>
             <p><?php block_field('cerchi-un-diplomificio-testo-2'); ?></p>
           </div>
           <div class="col-md-6">
-            <i class="material-icons iconax">close</i>
+            <i class="material-icons icona-x">close</i>
             <h4 style="padding-bottom: 25px"><?php block_field('cerchi-lavoro'); ?></h4>
             <p><?php block_field('cerchi-lavoro-testo-1'); ?></p>
             <p><?php block_field('cerchi-lavoro-testo-2'); ?></p>
