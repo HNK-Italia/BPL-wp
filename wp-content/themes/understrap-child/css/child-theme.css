@@ -11637,6 +11637,14 @@ hr.spacer {
 .bianco {
   color: #FFFFFF; }
 
+.verde {
+  color: #1CA554; }
+
+.fondatori-box {
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 7px 7px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 7px 7px rgba(0, 0, 0, 0.15);
+  border-radius: 10px; }
+
 .icona-play {
   max-width: 128px;
   position: absolute;
@@ -11662,6 +11670,9 @@ hr.spacer {
   background-size: cover;
   background-position: top center;
   height: 500px; }
+
+.rotondo {
+  border-radius: 50%; }
 
 .icona-genitore {
   position: absolute;
