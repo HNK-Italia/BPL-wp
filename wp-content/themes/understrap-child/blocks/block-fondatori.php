@@ -1,6 +1,6 @@
 <section class="container text-center">
   <hr class="spacer py-1 py-md-4" />
-      <h2 style="color: #1CA554;"><?php block_field('titolo'); ?></h2>
+      <h2 class="verde ventipx"><?php block_field('titolo'); ?></h2>
   <div class="row">
     <div class="col-mx-12 col-md-5 fondatori-box ventipx">
       <img src="<?php block_field('immagine1'); ?>" class="rotondo" style="width: 300px; height: 300px;">
